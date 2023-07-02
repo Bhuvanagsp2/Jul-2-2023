@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+.container{
+    width: 500px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0.382);
+    box-shadow: 3px 4px 4px #aaaaaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(#eeeeee, pink);
+    box-shadow: 3px 4px 4px #aaaaaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(50, 0, 37);
+    font-size: 25px;
+}
+a:hover{
+    background-image: linear-gradient(pink, purple);
+    color: white;
+}
+.fa-solid{
+    text-shadow: 2px 2x 2px #aaaaaa;
+}
